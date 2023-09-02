@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>Collegepedia</title>
+    <link rel="stylesheet" href="202x.css">
+    <script src="./202x.js"></script>
+</head>
+
+<body>
+    <table id="content-table">
+        <thead>
+            <tr>
+                <th col-index = 1>Name</th>
+                <th col-index = 2>Country
+                    <select class="table-filter" onchange="filter_rows()">
+                        <option value="all"></option>
+                    </select>
+                </th>
+                <th col-index = 3>Type
+                    <select class="table-filter" onchange="filter_rows()">
+                        <option value="all"></option>
+                    </select>
+                </th>
+                <th col-index = 4>Number of Acceptances</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harvard University</td>
+                <td>US</td>
+                <td>Private</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>ABC University</td>
+                <td>US</td>
+                <td>Private</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Z University</td>
+                <td>US</td>
+                <td>Public</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>I University</td>
+                <td>South Korea</td>
+                <td>Private</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>U University</td>
+                <td>US</td>
+                <td>Private</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>J University</td>
+                <td>US</td>
+                <td>Liberal Arts</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>O University</td>
+                <td>US</td>
+                <td>Arts</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>D University</td>
+                <td>US</td>
+                <td>Private</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>A University</td>
+                <td>US</td>
+                <td>Private</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>ZU University</td>
+                <td>US</td>
+                <td>Private</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        window.onload=() => {
+            console.log(document.querySelector("#content-table > tbody > tr:nth-child(1) > td:nth-child(2) ").innerHTML);
+        };
+        getUniqueValuesFromColumn()
+    </script>
+</body>
+</html>

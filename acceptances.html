@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Collegepedia</title>
+    <link rel="stylesheet" href="acceptances.css">
+    <script src="./acceptances.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <img src="images/logo.png" class="logo1">
+        </div>
+        <h2 class="logo">COLLEGEPEDIA</h2>
+        <nav class="navigation">
+            <a href="home.html">HOME</a >
+            <a href="acceptances.html">ACCEPTANCES</a >
+            <a href="alumni.html">ALUMNI</a >
+            <a href="review.html">REVIEWS</a >
+        </nav>
+    </header>
+
+<div class="container">
+    <!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, '2023')" id="defaultOpen">2023</button>
+    <button class="tablinks" onclick="openCity(event, '2022')">2022</button>
+    <button class="tablinks" onclick="openCity(event, '2021')">2021</button>
+    <button class="tablinks" onclick="openCity(event, '2020')">2020</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="2023" class="tabcontent">
+    <iframe src="2023.html" width="95%" height="70%" frameBorder="0" style="border: 0;"></iframe>
+  </div>
+  
+  <div id="2022" class="tabcontent">
+    <iframe src="2022.html" width="95%" height="70%" frameBorder="0" style="border: 0;"></iframe>
+  </div>
+  
+  <div id="2021" class="tabcontent">
+    <iframe src="2021.html" width="95%" height="70%" frameBorder="0" style="border: 0;"></iframe>
+  </div>
+
+  <div id="2020" class="tabcontent">
+    <iframe src="2020.html" width="95%" height="70%" frameBorder="0" style="border: 0;"></iframe>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 6%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    text-align: left;
+    margin-right: 50%;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navigation a:hover {
+    color: #bbb;
+}
+
+.logo1 {
+    width: 60px;
+}
+
+.child {
+    border: 3px solid navy;
+    flex: 0 0 calc(50% - 44px); /* Each child takes up 50% of the parent's width minus margin */
+    margin: 22px; /* Add margin between the boxes */
+    padding: 20px;
+    width: 100px;
+    height:auto;
+    overflow:auto;
+}
+.parent {
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap; /* Allow the children to wrap into multiple rows */
+    justify-content: center; /* Center horizontally */
+}
+
+h3 {
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    padding-bottom: 8px;
+    
+}
+
+p {
+    font-family: Sans-Serif;
+    color: #000;
+    display: inline;
+}
+
+h1 {
+    padding-left: 20px;
+    padding-top: 35px;
+    font-size: 35;
+    font-family: sans-serif;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 900;
+    display: inline;
+}

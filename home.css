@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 10px;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    text-align: left;
+    margin-right: 1027px;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.back a {
+    font-size: 3em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navigation a:hover {
+    color: #bbb;
+}
+
+.logo1 {
+    width: 60px;
+}
+
+p {
+    font-family: 'Aileron', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 70px 50px;
+    background-image: url(images/navy.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 30px;
+}
+
+.card1 {
+    background-image: url(images/navy.png);
+}
+
+.card2 {
+    background-image: url(images/navy.png);
+}
+
+.card3 {
+    background-image: url(images/navy.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas Neue');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    text-align: left;
+    margin-right: 50%;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.3em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.back a {
+    font-size: 3em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navigation a:hover {
+    color: #bbb;
+}
+
+.logo1 {
+    width: 60px;
+}
+
+p {
+    font-family: 'Aileron', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content-table {
+    border-collapse: collapse;
+    font-size: 1.8em;
+    min-width: 900px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    align-items: center;
+}
+#content-table thead tr {
+    background-color: rgb(0, 0, 131);
+    color: #ffff;
+    text-align: left;
+    font-weight: bold;
+}
+#content-table th, #content-table td {
+    padding: 12px 15px;
+}
+#content-table tbody td{
+    font-family: 'Helvetica', sans-serif;
+    font-size: large;
+}
+#content-table tbody tr {
+    border-bottom: 1px solid #dddd;
+}
+#content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+#content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(0, 0, 131);
+}
